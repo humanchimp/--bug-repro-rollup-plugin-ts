@@ -1,5 +1,7 @@
 # 🐛--bug-repro-rollup-plugin-ts
 
+Status: **[Reported](https://github.com/wessberg/rollup-plugin-ts/issues/71)**
+
 ![Error](./error.png)
 
 Rollup is trying to load the [dist/esm/import.d.ts](dist/esm/import.d.ts) file and failing because it's not JavaScript.

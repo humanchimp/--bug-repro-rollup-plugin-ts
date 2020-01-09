@@ -1,3 +1,3 @@
-import yo from "../dist/esm/import";
+import yo from "..";
 
 console.log(yo);

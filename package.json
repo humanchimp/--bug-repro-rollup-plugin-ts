@@ -6,24 +6,13 @@
   "typings": "dist/esm/import.d.ts",
   "license": "MIT",
   "scripts": {
-    "test": "stable",
-    "build": "rollup -c rollup.config.js",
-    "prepublishOnly": "yarn test && yarn build && mv dist/cjs/-bug-repro-rollup-plugin-ts.d.ts* dist && rm dist/*/-bug-repro-rollup-plugin-ts.d.ts*"
+    "test": "rollup -c rollup.config.js"
   },
   "devDependencies": {
     "@wessberg/rollup-plugin-ts": "^1.2.4",
-    "prettier": "^1.18.2",
     "rollup": "^1.21.2",
     "rollup-plugin-node-resolve": "^5.2.0",
     "typescript": "^3.6.3"
-  },
-  "nyc": {
-    "instrument": false
-  },
-  "prettier": {
-    "proseWrap": "never",
-    "singleQuote": false,
-    "trailingComma": "all"
   },
   "private": true
 }

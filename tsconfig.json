@@ -8,4 +8,5 @@
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true
   },
+  "exclude": ["dist/**/*.*"]
 }

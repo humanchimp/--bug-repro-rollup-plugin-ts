@@ -1,12 +1,4 @@
 {
-  "compilerOptions": {
-    "target": "es2016",
-    "lib": ["esnext"],
-    "declaration": true,
-    "declarationMap": true,
-    "moduleResolution": "Node",
-    "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true
-  },
-  "exclude": ["dist/**/*.*"]
+  "extends": "@wessberg/ts-config",
+  "include": ["src/**/*.*"]
 }

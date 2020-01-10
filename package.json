@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@wessberg/rollup-plugin-ts": "^1.2.4",
+    "@wessberg/ts-config": "^0.0.44",
     "rollup": "^1.21.2",
     "rollup-plugin-node-resolve": "^5.2.0",
     "typescript": "^3.6.3"

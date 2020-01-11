@@ -1,6 +1,6 @@
 # 🐛--bug-repro-rollup-plugin-ts
 
-Status: **[Reported](https://github.com/wessberg/rollup-plugin-ts/issues/71)**
+Status: **[Fixed](https://github.com/wessberg/rollup-plugin-ts/issues/71)**
 
 ![Error](./error.png)
 
